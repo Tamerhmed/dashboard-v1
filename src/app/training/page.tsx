@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function TrainingPage() {
   return (
-    <div>Training Page</div>
+    <div>
+      <h2>Training page</h2>
+    </div>
   )
 }
