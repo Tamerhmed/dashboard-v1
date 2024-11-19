@@ -21,11 +21,12 @@ export const Navbar = () => {
           }
           alt='logo'
           width={60}
-          height={60}
+          height={70}
+          className='w-full object-cover'
         />
       </Link>
       <div className='flex items-center'>
-        <ThemeToggler />
+        {/* <ThemeToggler /> */}
         <DropdownMenu>
           <DropdownMenuTrigger className='focus:outline-none'>
             <Info size={30} />

@@ -2,5 +2,5 @@ export interface Post {
   id: string;
   title: string;
   body: string;
-  date: string;
+  date?: string;
 }
