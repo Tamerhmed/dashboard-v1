@@ -18,11 +18,11 @@ import {
   UsersRound,
 } from 'lucide-react';
 import Link from 'next/link';
-
+import Menu from './Menu';
 
 export default function Sidebar() {
   return (
-  
+    // <Menu />
     <Command className='bg-secondary rounded-none'>
       <CommandInput placeholder='Type a command or search...' />
       <CommandList>
@@ -58,6 +58,5 @@ export default function Sidebar() {
         </CommandGroup>
       </CommandList>
     </Command>
-   
   );
 }
